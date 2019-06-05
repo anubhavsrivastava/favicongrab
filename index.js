@@ -46,7 +46,7 @@ const getGrabAPIUrl = site => {
 };
 
 const grabFavicon = site => {
-	return axios.get(getGrabAPIUrl(site));
+	return axios.get(getGrabAPIUrl(site)).catch(e => (e.response ? e.response.data : e));
 };
 
 export default grabFavicon;

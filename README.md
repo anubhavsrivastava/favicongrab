@@ -36,7 +36,7 @@ Above call returns following `response`
         } ]
     }
 
-### API
+### API Specification
 
 #### `grabFavicon`
 
