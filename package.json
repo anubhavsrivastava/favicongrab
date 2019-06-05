@@ -1,0 +1,22 @@
+{
+	"name": "favicongrab",
+	"version": "0.0.1",
+	"description": "A module for grabbing Favicon from favicongrabber.com API",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/anubhavsrivastava/favicongrab.git"
+	},
+	"author": {
+		"name": "Anubhav Srivastava",
+		"email": "anubhav.srivastava00@gmail.com"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/anubhavsrivastava/favicongrab/issues"
+	},
+	"homepage": "https://github.com/anubhavsrivastava/favicongrab#readme"
+}
