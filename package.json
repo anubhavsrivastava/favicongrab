@@ -1,6 +1,6 @@
 {
 	"name": "favicongrab",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "A module for grabbing Favicon info from favicongrabber.com API",
 	"main": "index.js",
 	"scripts": {
