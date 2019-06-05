@@ -4,3 +4,4 @@ src
 index.js
 webpack.config.js
 .gitignore
+sample.js
