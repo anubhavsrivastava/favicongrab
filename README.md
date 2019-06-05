@@ -1,6 +1,6 @@
 # favicongrab
 
-A module for grabbing Favicon from favicongrabber.com API
+A module for grabbing Favicon for any web site
 
 [![Build Status](https://travis-ci.org/anubhavsrivastava/favicongrab.svg?branch=master)](https://travis-ci.org/anubhavsrivastava/favicongrab)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
@@ -10,6 +10,69 @@ A module for grabbing Favicon from favicongrabber.com API
 [![NPM](https://nodei.co/npm/favicongrab.png?downloads=true&stars=true)](https://nodei.co/npm/favicongrab/)
 
 ### Install
+
+```
+$ npm install favicongrab --save
+```
+
+or
+
+```
+yarn add favicongrab
+```
+
+### Usage
+
+    const { grabFavicon } = require('favicongrab');
+
+    grabFavicon('https://about.theanubhav.com').then((response)=>{console.log(response)})
+
+Above call returns following `response`
+
+    { domain: 'about.theanubhav.com',
+      icons: [ {
+          src: 'https://about.theanubhav.com/favicon.ico',
+        type: 'image/x-icon'
+        } ]
+    }
+
+//
+
+### API
+
+#### `grabFavicon`
+
+-   returns - Promise
+-   arguments - siteUrl // e.g theanubhav.com
+
+`Data`
+
+1.  Success Result :
+
+        { domain: 'about.theanubhav.com',
+            icons: [ {
+                src: 'https://about.theanubhav.com/favicon.ico',
+                type: 'image/x-icon'
+            } ]
+        }
+
+Description properties of icon object:
+
+-   property src contains an absolute URL for a favicon image and is required and unique;
+-   property type equals an MIME-type's favicon image;
+-   property sizes contains size's favicon image and in a simple case has the following format: HEIGHTxWIDTH in pixels (for a full description, see HTML5 Links).
+
+2. Failure Result :
+
+All error messages have the following format
+
+    {
+    "error": "Unresolved domain name."
+    }
+
+### Reference
+
+`favicongrab` uses HTTP Api from [favicongrabber](favicongrabber.com). Refer service API reference [here](https://favicongrabber.com/service-api-reference)
 
 ### Contribution
 
