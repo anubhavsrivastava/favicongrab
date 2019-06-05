@@ -57,8 +57,8 @@ Above call returns following `response`
 Description properties of icon object:
 
 -   property src contains an absolute URL for a favicon image and is required and unique;
--   property type equals an MIME-type's favicon image;
--   property sizes contains size's favicon image and in a simple case has the following format: HEIGHTxWIDTH in pixels (for a full description, see HTML5 Links).
+-   property type equals an [MIME-type](https://en.wikipedia.org/wiki/Media_type)'s favicon image;
+-   property sizes contains size's favicon image and in a simple case has the following format: HEIGHTxWIDTH in pixels.
 
 2. Failure :
 
