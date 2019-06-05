@@ -36,8 +36,6 @@ Above call returns following `response`
         } ]
     }
 
-//
-
 ### API
 
 #### `grabFavicon`
@@ -45,9 +43,9 @@ Above call returns following `response`
 -   returns - Promise
 -   arguments - siteUrl // e.g theanubhav.com
 
-`Data`
+-   Result Data
 
-1.  Success Result :
+1.  Success :
 
         { domain: 'about.theanubhav.com',
             icons: [ {
@@ -62,17 +60,17 @@ Description properties of icon object:
 -   property type equals an MIME-type's favicon image;
 -   property sizes contains size's favicon image and in a simple case has the following format: HEIGHTxWIDTH in pixels (for a full description, see HTML5 Links).
 
-2. Failure Result :
+2. Failure :
 
 All error messages have the following format
 
     {
-    "error": "Unresolved domain name."
+        "error": "Unresolved domain name."
     }
 
 ### Reference
 
-`favicongrab` uses HTTP Api from [favicongrabber](favicongrabber.com). Refer service API reference [here](https://favicongrabber.com/service-api-reference)
+`favicongrab` uses HTTP API from [favicongrabber](favicongrabber.com). Refer service API reference [here](https://favicongrabber.com/service-api-reference).
 
 ### Contribution
 
