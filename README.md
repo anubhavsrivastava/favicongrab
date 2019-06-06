@@ -72,6 +72,10 @@ All error messages have the following format
 
 `favicongrab` uses HTTP API from [favicongrabber](favicongrabber.com). Refer service API reference [here](https://favicongrabber.com/service-api-reference).
 
+### Related Module
+
+-   [favicon-downloader](https://github.com/anubhavsrivastava/favicon-downloader) A module for download Favicon of any web site.
+
 ### Environment
 
 Currently, `favicongrab` is supported for Nodejs Environment only. Please open a issue for browser support, if required.
