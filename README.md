@@ -80,6 +80,11 @@ All error messages have the following format
 
 Currently, `favicongrab` is supported for Nodejs Environment only. Please open a issue for browser support, if required.
 
+### Related Module
+
+-   [favicon-downloader](https://github.com/anubhavsrivastava/favicon-downloader) A module for downloading Favicon of any web site.
+-   [favicon-downloader-cli](https://github.com/anubhavsrivastava/favicon-downloader-cli) CLI for favicon-downloader module
+
 ### Contribution
 
 Suggestions and PRs are welcome!
