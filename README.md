@@ -70,7 +70,7 @@ All error messages have the following format
 
 ### Reference
 
-`favicongrab` uses HTTP API from [favicongrabber](favicongrabber.com). Refer service API reference [here](https://favicongrabber.com/service-api-reference).
+`favicongrab` uses HTTP API from [favicongrabber](https://favicongrabber.com). Refer service API reference [here](https://favicongrabber.com/service-api-reference).
 
 ### Related Module
 
