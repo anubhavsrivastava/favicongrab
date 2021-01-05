@@ -22,7 +22,7 @@
 	},
 	"homepage": "https://github.com/anubhavsrivastava/favicongrab#readme",
 	"dependencies": {
-		"axios": "^0.19.0",
+		"axios": "^0.21.1",
 		"axios-data-unpacker": "^1.0.0"
 	},
 	"devDependencies": {
